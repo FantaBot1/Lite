@@ -21,6 +21,17 @@ const optionsFull = `〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕\n
       }
       bot.antiPrivate = isEnable;
       break;
+      case 'welcome':
+      isAll = true;
+      if (!(isROwner || isOwner)) {
+        global.dfail('group', m, conn);
+        throw false;
+     }
+  } else if (!(isAdmin || isOwner || isOwner)) {
+     global.dfail('admin', m, conn);
+        throw false;
+     }
+  chatwelcome = isEnable
     default:
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
