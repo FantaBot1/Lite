@@ -25,9 +25,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 *╭━〔 OPTIMUS INFO 〕━⬣*
  ┃👤 Creador : Cristhofer
- ┃📱 Numero ; +51 937 305 486
- ┃🤑 Adquirir : +51 937 305 486
- ┃👻 Ig : https://www.instagram.com/fantasmin.ventas.bot/
+ ┃📱 Numero ; +51 902 360 712
+ ┃🤑 Adquirir : +51 902 360 712
+ ┃👻 Ig : https://www.instagram.com/optimus.ventas.bot/
  ┃🤗 User : ${taguser}
  ${readMore}
 *╰━━━━━━━━━━━━⬣*
@@ -38,7 +38,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ┃⚜ _${usedPrefix}demote *<@tag>*_>
  ┃⚜ _${usedPrefix}todos *<Invocar>*_
  ┃⚜ _${usedPrefix}setwelcome *<txt>*_
- ┃⚜ _${usedPrefix}hidetag *<txt>*_
+ ┃⚜ _${usedPrefix}notify *<txt>*_
 *╰━━━━━━━━━━━━⬣*
 
 
